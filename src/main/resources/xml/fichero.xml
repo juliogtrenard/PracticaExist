@@ -5,7 +5,7 @@
 <CODACTIV>10</CODACTIV>
 <NOMBREACTIVIDAD>Aparatos</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>libre horario</tipoact>
+<tipoact>1</tipoact>
 <cuota_adicional>0€</cuota_adicional>
 </datos>
 <datos>
@@ -14,7 +14,7 @@
 <CODACTIV>22</CODACTIV>
 <NOMBREACTIVIDAD>Spinning</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -23,7 +23,7 @@
 <CODACTIV>10</CODACTIV>
 <NOMBREACTIVIDAD>Aparatos</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>libre horario</tipoact>
+<tipoact>1</tipoact>
 <cuota_adicional>0€</cuota_adicional>
 </datos>
 <datos>
@@ -32,7 +32,7 @@
 <CODACTIV>10</CODACTIV>
 <NOMBREACTIVIDAD>Aparatos</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>libre horario</tipoact>
+<tipoact>1</tipoact>
 <cuota_adicional>0€</cuota_adicional>
 </datos>
 <datos>
@@ -41,7 +41,7 @@
 <CODACTIV>10</CODACTIV>
 <NOMBREACTIVIDAD>Aparatos</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>libre horario</tipoact>
+<tipoact>1</tipoact>
 <cuota_adicional>0€</cuota_adicional>
 </datos>
 <datos>
@@ -50,7 +50,7 @@
 <CODACTIV>22</CODACTIV>
 <NOMBREACTIVIDAD>Spinning</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -59,7 +59,7 @@
 <CODACTIV>31</CODACTIV>
 <NOMBREACTIVIDAD>Padel</NOMBREACTIVIDAD>
 <horas>2</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>8€</cuota_adicional>
 </datos>
 <datos>
@@ -68,7 +68,7 @@
 <CODACTIV>31</CODACTIV>
 <NOMBREACTIVIDAD>Padel</NOMBREACTIVIDAD>
 <horas>2</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>8€</cuota_adicional>
 </datos>
 <datos>
@@ -77,7 +77,7 @@
 <CODACTIV>31</CODACTIV>
 <NOMBREACTIVIDAD>Padel</NOMBREACTIVIDAD>
 <horas>2</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>8€</cuota_adicional>
 </datos>
 <datos>
@@ -86,7 +86,7 @@
 <CODACTIV>21</CODACTIV>
 <NOMBREACTIVIDAD>Pilates</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -95,7 +95,7 @@
 <CODACTIV>21</CODACTIV>
 <NOMBREACTIVIDAD>Pilates</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -104,7 +104,7 @@
 <CODACTIV>21</CODACTIV>
 <NOMBREACTIVIDAD>Pilates</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -113,7 +113,7 @@
 <CODACTIV>21</CODACTIV>
 <NOMBREACTIVIDAD>Pilates</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>grupo</tipoact>
+<tipoact>2</tipoact>
 <cuota_adicional>2€</cuota_adicional>
 </datos>
 <datos>
@@ -122,7 +122,7 @@
 <CODACTIV>32</CODACTIV>
 <NOMBREACTIVIDAD>Tenis</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>4€</cuota_adicional>
 </datos>
 <datos>
@@ -131,7 +131,7 @@
 <CODACTIV>32</CODACTIV>
 <NOMBREACTIVIDAD>Tenis</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>4€</cuota_adicional>
 </datos>
 <datos>
@@ -140,7 +140,7 @@
 <CODACTIV>32</CODACTIV>
 <NOMBREACTIVIDAD>Tenis</NOMBREACTIVIDAD>
 <horas>1</horas>
-<tipoact>alquila un espacio</tipoact>
+<tipoact>3</tipoact>
 <cuota_adicional>4€</cuota_adicional>
 </datos>
 </datosPrincipal>
