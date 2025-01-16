@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><datosPrincipal>
+<?xml version="1.0" encoding="UTF-8"?><infoGimnasio>
 <datos>
 <COD>10</COD>
 <NOMBRESOCIO>JUAN</NOMBRESOCIO>
@@ -143,4 +143,4 @@
 <tipoact>3</tipoact>
 <cuota_adicional>4€</cuota_adicional>
 </datos>
-</datosPrincipal>
+</infoGimnasio>

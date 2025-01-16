@@ -60,8 +60,8 @@ public class Main {
     private static void generarXMLIntermedio(Collection col) throws XMLDBException {
         XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
         Document doc = guardarDocumento();
-        Element datosPrincipal = doc.createElement("datosPrincipal");
-        doc.appendChild(datosPrincipal);
+        Element infoGimnasio = doc.createElement("infoGimnasio");
+        doc.appendChild(infoGimnasio);
 
         String query = "for $uso in /USO_GIMNASIO/fila_uso return $uso";
         ResourceSet result = servicio.query(query);
@@ -74,7 +74,7 @@ public class Main {
 
         while (i.hasMoreResources()) {
             Element datos = doc.createElement("datos");
-            datosPrincipal.appendChild(datos);
+            infoGimnasio.appendChild(datos);
             String contenido = (String) i.nextResource().getContent();
 
             String codigoSocio = extraerValor(contenido, "<CODSOCIO>", "</CODSOCIO>");
@@ -188,8 +188,8 @@ public class Main {
         try {
             XPathQueryService servicio = (XPathQueryService) col.getService("XPathQueryService", "1.0");
             Document doc = guardarDocumento();
-            Element datosPrincipal = doc.createElement("datosPrincipal");
-            doc.appendChild(datosPrincipal);
+            Element infoGimnasio = doc.createElement("infoGimnasio");
+            doc.appendChild(infoGimnasio);
 
             String query = "for $persona in /SOCIOS_GIM/fila_socios return $persona";
             ResourceSet result = servicio.query(query);
@@ -210,7 +210,7 @@ public class Main {
                 int cuotaTotal = Integer.parseInt(cuotaFija) + Integer.parseInt(sumaCuotaAdicional);
 
                 Element datos = doc.createElement("datos");
-                datosPrincipal.appendChild(datos);
+                infoGimnasio.appendChild(datos);
                 aniadirElemento(doc, datos, "COD", codigoSocio);
                 aniadirElemento(doc, datos, "NOMBRESOCIO", nombreSocio);
                 aniadirElemento(doc, datos, "CUOTA_FIJA", cuotaFija);
@@ -225,7 +225,7 @@ public class Main {
     }
 
     private static String obtenerSumaCuotaAdicional(XPathQueryService servicio, String codigoSocio) throws XMLDBException {
-        String queryCuota = "sum(/datosPrincipal/datos[COD='" + codigoSocio + "']/number(translate(cuota_adicional, '€', '')))";
+        String queryCuota = "sum(/infoGimnasio/datos[COD='" + codigoSocio + "']/number(translate(cuota_adicional, '€', '')))";
         ResourceSet resultCuota = servicio.query(queryCuota);
         ResourceIterator iCuota = resultCuota.getIterator();
         if (iCuota.hasMoreResources()) {

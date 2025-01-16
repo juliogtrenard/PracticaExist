@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><datosPrincipal>
+<?xml version="1.0" encoding="UTF-8"?><infoGimnasio>
 <datos>
 <COD>10</COD>
 <NOMBRESOCIO>JUAN</NOMBRESOCIO>
@@ -48,4 +48,4 @@
 <suma_cuota_adic>0</suma_cuota_adic>
 <cuota_total>110</cuota_total>
 </datos>
-</datosPrincipal>
+</infoGimnasio>
